@@ -1,5 +1,3 @@
-// ─── Interfaces ───────────────────────────────────────────────────────────────
-
 interface Course {
   id: number;
   title: string;
@@ -20,8 +18,6 @@ interface ApiResponse {
   data: UserData;
 }
 
-// ─── Sample Data (matching the JSON response) ─────────────────────────────────
-
 const response: ApiResponse = {
   success: true,
   message: "User retrieved successfully",
@@ -37,8 +33,6 @@ const response: ApiResponse = {
     ],
   },
 };
-
-// ─── Output ───────────────────────────────────────────────────────────────────
 
 console.log("Success:", response.success);
 console.log("Message:", response.message);
