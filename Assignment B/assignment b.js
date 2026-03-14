@@ -8,7 +8,6 @@ const products = [
     { id: 102, name: "Headphones", price: 1800, inStock: false },
     { id: 103, name: "Mouse", price: 650, inStock: true },
 ];
-// ─── Functions ────────────────────────────────────────────────────────────────
 function getUserById(id) {
     return users.find((user) => user.id === id);
 }
